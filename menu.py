@@ -27,9 +27,4 @@ class Menu:
         tran.pack()
         mlt.pack()
 
-        # def on_closing():
-        #      if messagebox.askokcancel("Quit", "Do you want to quit?"):
-        #         gui_menu.destroy()
-        # gui_menu.protocol("WM_DELETE_WINDOW", on_closing)
-
         gui_menu.mainloop()
